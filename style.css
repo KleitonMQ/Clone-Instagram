@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100vh;
+    min-height: 100vh;
+    background-color: #ece9e9;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+}
+
+.instagram-phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phones img{
+    height: 50rem;
+    margin-left: -300px;
+}
+
+#phone{
+    margin-top: 25px;
+}
